@@ -1,0 +1,21 @@
+<opml version="1.0">
+    <head>
+        <title>Kevin Gary subscriptions in Google Reader</title>
+    </head>
+    <body>
+        <outline title="news" text="news">
+            <outline text="ESPN.com" title="ESPN.com" type="rss"
+                xmlUrl="http://sports.espn.go.com/espn/rss/news" htmlUrl="http://espn.go.com/"/>
+            <outline text="Google News" title="Google News" type="rss"
+                xmlUrl="http://news.google.com/?output=rss" htmlUrl="http://news.google.com/"/>
+            <outline text="NPR: 7AM ET News Summary"
+                title="NPR: 7AM ET News Summary" type="rss"
+                xmlUrl="http://www.npr.org/rss/podcast.php?id=500001" htmlUrl="http://www.npr.org/templates/topics/topic.php?topicId=1001"/>
+        </outline>
+        <outline
+            text="Jazz notifications for itemType: WorkItem, user: ADMIN"
+            title="Jazz notifications for itemType: WorkItem, user: ADMIN"
+            type="rss"
+            xmlUrl="http://swf1.east.asu.edu:9080/jazz/service/com.ibm.team.repository.common.internal.IFeedService?itemType=WorkItem&amp;user=ADMIN" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fswf1.east.asu.edu%3A9080%2Fjazz%2Fservice%2Fcom.ibm.team.repository.common.internal.IFeedService%3FitemType%3DWorkItem%26user%3DADMIN"/>
+    </body>
+</opml>

@@ -1,0 +1,120 @@
+body {
+	background-color: #fffbe7; /* ----entire page background---- */
+	font-size: 11px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	color:#333333; /* ----text color on body and upper section---- */
+	padding:0px;
+	margin:0px;
+    width:100%;
+	}
+
+/* ---- these colors aren't satisfying for the color scheme, requires much mucking	
+a {color: #DB7093;}
+a:visited {color:#DB7093;}
+a:hover {color: #564b47;}
+a:active { color:#000000;}
+*/
+
+img.download {
+	vertical-align:middle; }
+	
+img.prettypic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	border: solid 1px black;}
+	
+/* ----------container to center the layout---------- */
+#container {
+	width: 95%;
+	padding: 1em;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	} 
+
+/* ----------banner; for logo and header-------------- */
+#header {
+	background: #ffcf00 url('images/JP2_01.gif') no-repeat bottom left;
+	background-color: #ffcf00;
+	margin: 0; 
+	padding: 0; 
+	height: 90px;
+	}
+
+#menu ul { 
+	text-align: center;
+	font-size: 11px;
+	color: white;
+	background-color: #9c0000;
+	border-top:1px solid #222222;
+	border-bottom:1px solid #222222;
+	padding:5px 5px;
+	margin:0px;
+    width:99%;}
+	
+#menu li 
+	{
+	list-style:none;
+	display: inline;
+	padding: 0px 8px 0px 8px;
+	font-weight:600;
+	}
+	
+#menu a 
+	{
+	color: #F5F5DC;
+	text-decoration:none;
+	}
+#menu a:visited {color:#dcdcdc;}
+#menu a:hover {color: /*I want*/ #ffdead;}
+#menu a:active { color: #000000;}
+	
+
+/* -----------------inner (stupid ie)--------------------- */
+#inner{ margin:0px; width:100%; }
+
+/* -----------------content--------------------- */
+#content{ 
+	background-color: #dedbde; /* color of the content column */
+	position: relative; 
+	margin: 0px; }
+
+p{
+	padding: 5px 15px;
+	margin:0px; }
+
+h2 	{
+	font-size:22px;
+	font-weight: 600;
+	text-decoration: underline; 
+	padding: 5px 10px;
+	margin:0px;}
+
+h3 	{
+	font-size:18px;
+	font-weight: 400;
+	padding: 3px 0px 0px 15px;
+	margin:0px;}
+	
+h5 	{
+	text-align: center;
+	font-size: 10px;
+	font-weight:300;
+	}
+	
+/*  ----------------footer---------------------- */ 
+#footer {
+	clear:left;
+	margin:0px;
+	padding:5px 15px;
+	text-align: center;
+	font-size: 11px;
+	color: white;
+	background-color: #9c0000;
+	border-top:1px solid #222222;
+	border-bottom:1px solid #222222; }
+
+#footer table {
+	margin-right:0px;
+	margin-left:auto; }

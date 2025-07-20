@@ -1,0 +1,21 @@
+#header {
+	background: #ffcf00 url('images/logo/banner2.png') no-repeat bottom left;
+	background-color: #ffcf00;
+	margin: 0; 
+	padding: 0; 
+	height: 425px;
+	}
+	
+#header img {
+	border: double 5px #9c0000;
+	vertical-align:middle;
+	padding: 3px;
+	margin: 2px;
+}
+
+#header p {
+	text-align: right;
+	margin:3px;
+	padding:8px;
+}
+	
